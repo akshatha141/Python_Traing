@@ -14,6 +14,14 @@ while i<len(my_list):
      print(my_list[i])
      i += 1
 
+
+# to reverse input word
+word = input("Input a word to reverse: ")
+
+for char in range(len(word) - 1, -1, -1):
+  print(word[char],end="")  # end="" suspends new line and prints space
+
+
 # to print even and odd numbers
 my_num=[5,6,7,8,9,10,11,12]
 for num in my_num:
@@ -157,6 +165,8 @@ for a, b in zip(list_a, list_b):
    else:
 
      print(b)
+
+
 
 
 
