@@ -69,6 +69,8 @@ print(text.endswith("y"))
 print(text.capitalize())
 print(text.count("a"))
 print(text.index("a"))
+
+#concatination
 texter ="to be on the moon"
 print(text + texter)
 print( f'Hello {text} {texter}')
